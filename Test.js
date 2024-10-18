@@ -1,7 +1,5 @@
-function calculateTotal(cart) {
-  let total = 0;
-  for (let i = 0; i < cart.length; i++) {
-    total += cart[i].price;
-  }
-  return total;
+var total = 0;  
+let unusedVar = 5;  
+for (let i = 0; i < cart.length; i++) {
+  total += cart[i].price;
 }
